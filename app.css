@@ -1,7 +1,564 @@
-.logo{
-    color: aqua;
+
+body{
+    height: 100vh;
+    width: 100vh;
+    padding: 0;
+    margin: 0;
+    
+}
+.head{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head .logo{
+    height: 72px;
+    width: 251px;
+    margin-top: 45px;
+    margin-left: 78px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #0E0578; 
+}
+.head .navigation{
+    height: 117px;
+    padding: 0;
+    margin: 0;
+}
+.head .list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin: 59px 0px 0px 0px;
+}
+.head .item-1{
+    width: 143px;
+    margin-right: 79px;
+}
+.head .item-2{
+    width: 119px;
+    margin-right: 79px;
+}
+.head .item-3{
+    width: 138px;
+    margin-right: 79px;
+}
+.head .item-4{
+    width: 111px;
+    margin-right: 79px;
+}
+.head a{
+    height: 45px;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 30px;
+    color: #686565;
+}
+.section-1{
+    position: relative;
+    height: 949px;
+    width: 1440px;
+    padding: 0;
+    margin: 0;
+}
+.text{
+    position: absolute;
+    top: 201px;
+    left: 78px;
 }
 .img-1{
-    margin-top: 340px;
-    margin-left: 772px;
+    position: absolute;
+    top: -15px;
+    left: 690px;
+}  
+.section-1 .text h1{
+    height: 45px;
+    width: 378px;
+    margin: 0px 0px 5px 0px;
+    font-family: "Poppins", sans-serif;
+    font: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #0E0578;
 }
+.section-1 .text h2{
+    height: 144px;
+    width: 447px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Poppins", sans-serif;
+    font: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #2000E7; 
+}
+.section-1 .text span{
+    color: #F2BD00;
+}
+.section-1 .text p{
+    box-sizing: border-box;
+    height: 72px;
+    width: 616px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #383838;
+}
+.section-1 .buttons{
+    position:absolute;
+    top: 599px;
+}
+.section-1 .buttons * {
+    height: 72px;
+    width: 246px;
+    border-radius: 10px;
+    box-shadow: 11px 21px 15px rgb(0, 0, 0, 0.25);
+    font-family: "Poppins", sans-serif;
+    font: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.section-1 .buttons .but-hire-me{
+    position: relative;
+    left: 77px;
+    background-color: #2000E7;
+    color:  #FFFFFF;
+}
+.section-1 .buttons .but-hire-me:active {
+    background-color:#FFCA00;
+    color: black;
+}
+.section-1 .buttons .but-my-project{
+    position: relative;
+    left: 150px;
+    background-color: #2000E70A;
+    color: #2000E7;
+}
+.section-1 .buttons .but-my-project:active {
+    background-color: #FFCA00;
+    color: black;
+}
+.section-2{
+    height: 910px;
+    width: 1440px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.section-2 h1{
+    position: absolute;
+    height: 72px;
+    width: 370px;
+    top: 1272px;
+    left: 46px;
+    font-family: "Poppins", sans-serif;
+    font: bold;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    color:#2000E7;
+}
+.section-2 p{
+    position: absolute;
+    height: 303px;
+    width: 415px;
+    top: 1358px;
+    left: 46px;
+    font-family: "Poppins", sans-serif;
+    font: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+}
+.section-2 .img-2{
+    position: absolute;
+    left: 540.24px;
+}
+.section-2 .but-hire-me2 {
+    position: relative;
+    width: 246px;
+    height: 72px;
+    top: 650px;
+    left: 77px;
+    border-radius: 10px;
+    box-shadow: 11px 21px 15px rgb(0, 0, 0, 0.25);
+    background-color:#2000E7;
+    font-family: "Poppins", sans-serif;
+    font: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.section-2 .but-hire-me2:active{
+    background-color: #FFCA00;
+    color: black;
+}
+.section-3{
+    height: 910px;
+    width: 1440px;
+    padding: 0;
+    margin: 300px 0 0 0;
+    background-color: #FFD69633;
+}
+.section-3 h1{
+    position: relative;
+    height: 72px;
+    width: 395px;
+    top: 30px;
+    left: 488px;
+    font-family: "Poppins", sans-serif;
+    font: bold;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.2em;
+     color: #3B1FEA;
+}
+.section-3 p{
+    position: relative;
+    height: 36px;
+    width: 591px;
+    bottom: 15px;
+    left: 412px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+}
+.project * {
+    position: absolute;
+}
+.project .img-3, .project .img-6, .project .img-9 {
+    top: 0;
+}
+
+.project .img-4, .project .img-7, .project .img-10 {
+    top: 226px;
+}
+
+.project .img-5, .project .img-8, .project .img-11 {
+    top: 472px;
+}
+
+.project .img-3, .project .img-4, .project .img-5 {
+    left: 108px;
+}
+
+.project .img-6, .project .img-7, .project .img-8 {
+    left: 540px;
+}
+
+.project .img-9, .project .img-10, .project .img-11 {
+    left: 1003px;
+}
+.section-4{
+    width: 1440px;
+    height: 1316px;
+    padding: 0px;
+    margin: 270px 0px 0px 0px;
+    background-color:  #43BAFD0F; 
+}
+.section-4 h1 {
+    position: relative;
+    width: 555px;
+    height: 96px;
+    top: 50px;
+    left: 457px;
+    font-family: "Poppins", sans-serif;
+    font: bold;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.27em;
+    color:#220BE8 ;
+}
+.section-4 p {
+        position: relative;
+        width: 591px;
+        height: 36px;
+        left: 435px;
+        font-family: "Poppins", sans-serif;
+        font: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: black;
+    }
+.section-4 .input * {
+        position: absolute;
+        font-family: "Poppins", sans-serif;
+        font: 400;
+        font-size: 32px;
+        line-height: 48px;
+        color: black;
+    }
+.section-4 #your-email {
+        width: 649px;
+        height: 92px;
+        top: 159px;
+        left: 66px;
+        border: none;
+        box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+        background-color:  #FFFFFF;
+    }
+.section-4 #your-password {
+        resize: none;
+        width: 649px;
+        height: 92px;
+        top: 334px;
+        left: 66px;
+        border: none;
+        box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+        background-color:   #FFFFFF;
+    }
+.section-4 #your-message {
+        width: 649px;
+        height: 265px;
+        top: 509px;
+        left: 66px;
+        border: none;
+        box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+        background-color:  #FFFFFF;
+    }
+.section-4 .contact {
+        width: 327px;
+        height: 94px;
+        top: 823px;
+        left: 230px;
+        border: none;
+        background-color: white;
+        box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+    }
+.section-4 .contact:active {
+        background-color: black;
+        color: white;
+    }
+.section-4 .img-12 {
+    top: -20px;
+    left: 584px;
+}
+.footer{
+    width: 1440px;
+    height: 809px;
+    padding: 0;
+    margin: 208px 0px 0px 0px;
+    background-color: #FFD69633;
+}
+.footer .section-5 {
+    position: relative;
+    width: 1440px;
+    height: 72px;
+    top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .section-5 .navigation-2 {
+    height: 72px;
+    margin: 0;
+    padding: 0;
+}
+.footer .section-5 .logo-2 {
+    width: 386px;
+    height: 72px;
+    padding: 0;
+    margin: 5px 0px 0px 40px;
+    font-family: "Poppins", sans-serif;
+    font: bold;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+    color: #0E0578
+}
+.footer .section-5 .list-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+.footer .section-5 .item-4, .item-5, .item-6 {
+    height: 47px;
+    font-family: "Jost", sans-serif;
+    font: bold;
+    font-size: 31px;
+    line-height: 44.8px;
+    color: black;
+}
+.footer .section-5 .item-4 {
+    width: 157px;
+    margin: 5px 107px 0px 0px;
+}
+
+.footer .section-5 .item-5 {
+    width: 90px;
+    margin: 5px 200px 0px 0px;
+}
+
+.footer .section-5 .item-6 {
+    width: 142px;
+    margin: 5px 200px 0px 0px;
+}
+.bo_dy {
+    position: relative;
+    width: 1440px;
+    height: 325px;
+    top: 132px;
+    padding: 0;
+    margin: 0px 0px 100px 0px;
+}
+.help{
+    position: relative;
+    width: 1440px;
+    height: 325px;
+    top: 132px;
+    padding: 0;
+    margin: 0px 0px 100px 0px;
+}
+.help * {
+    position: absolute;
+}
+.help #your-email-2 {
+    width: 323px;
+    height: 97px;
+    left: 26px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.help .form * {
+    top: 25px;
+    font-family: "Jost", sans-serif;
+    font: bold;
+    font-size: 31px;
+    line-height: 44.8px;
+    color: white;
+}
+.help .subscribe {
+    width: 178px;
+    height: 99px;
+    left: 288px;
+    margin: 50px 0px 0px 0px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F965FC;
+    color: white;
+}
+
+.help .subscribe:active {
+    background-color: yellow;
+    color: black;
+}
+.help .inf, .help .support, .help .contact {
+    font-family: "Jost", sans-serif;
+    font: bold;
+    font-size: 31px;
+    line-height: 44.8px;
+    color: black;
+}
+.help ul {
+    margin: 0;
+    padding: 0;
+    top: -40px;
+    list-style: none;
+}
+.help li {
+    position: relative;
+    margin: 45px 0px 0px 0px;
+}
+.help .inf ul {
+    width: 160px;
+    height: 366px;
+    left: 540px;
+    margin: 0;
+    padding: 0;
+}
+
+.help .support ul {
+    width: 200px;
+    height: 366px;
+    left: 810px;
+    margin: 0;
+    padding: 0;
+}
+
+.help .contact {
+    left: 1100px;
+}
+.help .contact span {
+    width: 250px;
+    height: 47px;
+    top: -8px;
+    margin: 0;
+    padding: 0;
+}
+.help .contact p {
+    width: 250px;
+    height: 188px;
+    top: 65px;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    position: relative;
+    top: 130px;
+    align-items: center;
+    width: 1334px;
+    color: black;
+}
+.section-6{
+    position: relative;
+    width: 1440px;
+    height: 46px;
+    top: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-6 .copy {
+    width: 640px;
+    height: 46px;
+    margin: 0px 0px 0px 46px;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+    font: 400;
+    font-size: 32px;
+    line-height: 46.24px;
+    color: black;
+}
+.section-6 .social {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 46px;
+    margin: 0;
+    padding: 0;
+}
+.section-6 .youtube {
+    width: 72px;
+    height: 72px;
+    margin: 22px 75px 0px 0px;
+}
+.section-6 .instagram {
+    width: 76px;
+    height: 76px;
+    margin: 0px 75px 0px 0px;
+}
+.section-6 .facebook {
+    width: 18.68px;
+    height: 43.5px;
+    margin: 12px 75px 0px 0px;
+}
+.section-6 .linkedin {
+    width: 71px;
+    height: 71px;
+    margin: -1px 25px 0px 0px;
+}
+
+
